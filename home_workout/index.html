@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="main_box">
+        <a href="./index.html"><img src="./img/logo.png" alt="Logo" /></a>
+
+        <nav class="navigation">
+          <ul class="ul">
+            <li>
+              <a class="ul-obj1" class="ul-obj" href="./index.html">Home</a>
+            </li>
+            <li><a class="ul-obj" href="./shop.html">Shop</a></li>
+            <li><a class="ul-obj" href="./workout.html">Workout</a></li>
+            <li><a class="ul-obj" href="./about_us.html">About us</a></li>
+            <li><a class="ul-obj" href="">FAQ</a></li>
+          </ul>
+        </nav>
+        <a class="log_in" href="#">Log in</a>
+        <div class="burger-bar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="sub_box">
+        <nav class="sub_navigation">
+          <ul class="sub_ul">
+            <li><a class="sub_obj" href="./index.html">Home</a></li>
+            <li><a class="sub_obj" href="./shop.html">Shop</a></li>
+            <li><a class="sub_obj" href="./workout.html">Workout</a></li>
+            <li><a class="sub_obj" href="./test.html">About US</a></li>
+            <li><a class="sub_obj" href="">FAQ</a></li>
+            <li><a class="sub_obj" href="">Log in</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="sect">
+        <div class="login-box">
+          <form action="">
+            <h2>Login</h2>
+
+            <div class="input-box">
+              <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+              <input type="email" required />
+              <label>Email</label>
+            </div>
+
+            <div class="input-box">
+              <span class="icon"><i class="fa-solid fa-lock"></i></span>
+              <input
+                type="password"
+                required
+                pattern="^(?=.*[A-Z]).{8,}$"
+                title="Password must be at least 8 characters and contain 1 uppercase letter"
+              />
+              <label>Password</label>
+            </div>
+
+            <div class="remember-forgot">
+              <label for=""><input type="checkbox" />Remember Me</label>
+              <a href="#">Forgot Password?</a>
+            </div>
+
+            <button type="submit">Login</button>
+
+            <div class="register-link">
+              <p>Dont have an acount? <a href="">Register</a></p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section1">
+        <div class="wraper1">
+          <h1 class="motivation">
+            <span class="orange">Your </span>Fitness Journey Starts
+            <span class="orange">Here </span>
+          </h1>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer_section">
+        <a class="" href="./index.html"
+          ><img src="./img/logo.png" alt="Logo"
+        /></a>
+
+        <div class="contact">
+          <p class="contact_text">contact us here</p>
+          <div class="icons">
+            <a href=""
+              ><img
+                class="contact_icon"
+                src="./img/2023_Facebook_icon.svg-removebg-preview.png"
+                alt=""
+            /></a>
+            <a href=""
+              ><img
+                class="contact_icon"
+                src="./img/Instagram_icon-removebg-preview.png"
+                alt=""
+            /></a>
+            <a href=""
+              ><img
+                class="contact_icon"
+                src="./img/X_icon.svg-removebg-preview.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+
+        <div class="place1">
+          <p class="helper">tbilisi</p>
+          <p class="helper">chavchavadze N124</p>
+          <p class="helper">(+995)555-69-08-80</p>
+          <a class="map" href="">view on map</a>
+        </div>
+
+        <div class="place2">
+          <p class="helper">kutaisi</p>
+          <p class="helper">SHOTA RUSTAVELI N17</p>
+          <p class="helper">(+995)555-69-08-80</p>
+          <a class="map" href="">view on map</a>
+        </div>
+
+        <div class="sign_up_box">
+          <a class="sign_up_" href="#">Log_in</a>
+        </div>
+      </section>
+    </footer>
+
+    <div class="cookie-banner">
+      <p class="cookie-text">We use cookies to improve your experience.</p>
+      <button type="button" class="accept-btn">Accept</button>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
